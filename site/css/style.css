@@ -1,0 +1,109 @@
+
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+#topic{
+	margin-bottom: 10px;
+	text-align: center;
+}
+#box {
+	 margin: 1% ;
+	 padding: 17px;
+	 position: relative;
+	 border:black 1px solid;
+	 background: #AAAAAA;	 
+}
+.tag{
+	overflow: hidden;
+	padding: 4px;
+	font-size: 15px;
+	border:1px black solid;
+	position: absolute;
+	right: 0%;
+	top:0%;
+}
+
+#tagA{
+	background-color: #FFC8B4;
+	color:white;
+}
+
+#tagB{
+	background-color: #886600;
+	color: #FFBB00;
+}
+
+#tagC{
+	background-color: #99FFFF;
+	color:white;
+}
+
+
+div{
+	margin: 5px;
+}
+
+p{
+  float: left;
+  overflow: auto;
+  margin-bottom: 8px;
+}
+
+section{
+	float: left;
+	clear: all;
+}
+
+@media (min-width: 992px)
+{.col-md-4 {
+	clear:all;
+	width: 31.3%;
+	}
+ .tag{
+ 	width: 33.3%;
+ 	text-align: center;
+ 	font-size: 16px;
+ }
+ p{
+ 	position: relative;
+ 	top: 16px;
+ }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+.col-md-6 {
+	clear:all;
+	width: 48%; 
+}
+.col-lg-12{
+	clear:all;
+	width: 98%-1px;
+}
+ .tag{
+ 	width: 33.3%;
+ 	text-align: center;
+ 	font-size: 14px;
+ }
+ p{
+ 	position: relative;
+ 	top: 14px;
+ }
+}
+
+@media (max-width: 767px){
+.col-sm-6{
+	clear:all;
+	width: 98%-1px;
+}
+ .tag{
+ 	width: 33.3%;
+ 	text-align: center;
+ 	font-size: 12px;
+ }
+ p{
+ 	position: relative;
+ 	top: 12px;
+ }
+}
