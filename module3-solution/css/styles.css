@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	border: 0;
+}
+body{
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
+/*Head*/
+#head-nav{
+	background-color: rgb(180, 180, 180);
+	border: 1px solid black;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+
+#title{
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.menu-name{
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.navbar-brand {
+  padding-top: 20px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+  background-color: rgb(180, 180, 180);
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background:lightgray;
+}
+#nav-list a span {
+  font-size: 1.5em;
+}
+/*Head*/
+
+/*Content*/
+.row h3{
+	text-shadow: 1px 1px 1px #222;
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.section-content{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	background-color: rgb(180, 180, 180);
+}
+.section-content p{
+	margin:0 2.5vw 0 2.5vw;
+}
+.section-content a{
+	margin:0 2.5vw 1.2vw 2.5vw;
+}
+
+/*Content*/
+
+/*Desktop*/
+@media (min-width: 992px){
+	.col-md-4{
+		width: 31%;
+	}
+}
+
+
+
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-sm-6{
+		width:47%;
+	}
+}
+
+
+/*Mobile*/
+@media(max-width: 767px){
+	.col-xs-12{
+		width: 96%;
+	}
+	.navbar-brand {
+    padding-top: 15px;
+    height: 80px;
+    }
+}
